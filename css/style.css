@@ -1,0 +1,144 @@
+body{
+  font-family: 'Merriweather', serif;
+}
+/* color pallet
+
+black #222222
+bluish #8083FF
+lighter black #383645
+greenish #00E5B0
+
+
+Light 300 italic
+Regular 400
+Regular 400 italic
+Black 900
+Black 900 italic
+
+*/
+.logo{ height: auto; width:100%;}
+header, footer{
+  background-color: #222222;
+  color: #fff;
+  padding-top:25px;
+  padding-bottom: 25px;
+}
+header .fa{ color:#00E5B0;}
+
+.top-bar{background-color: #383645; color:#fff;padding:10px;}
+.top-bar h6{margin-bottom:0;}
+.top-bar .fa {color:#00E5B0;}
+
+.img-box{
+  background-image: url(/imgs/bannerOM-lt.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.h4-estate{ font-size: 1.3rem; }
+
+a{
+  color: #8083FF;
+}
+a:hover{
+  color:#00E5B0;
+}
+
+.info-contain p {
+  font-weight: bold;
+  font-size:17px;
+  text-shadow: 0px 0px 4px rgba(252, 252, 252, 1);
+}
+
+.weBuy-list{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  margin-bottom:20px;
+}
+.weBuy-list ul {
+  max-width: 50%;
+  list-style-type: none;
+}
+.weBuy-list ul li:before {
+  color:#00E5B0;
+  content: "\f0d6"; /* FontAwesome Unicode */
+  font-family: FontAwesome;
+  font-size: 20px;
+  display: inline-block;
+  margin-left: -1.3em; /* same as padding-left set on li */
+  width: 1.3em; /* same as padding-left set on li */
+}
+
+.bg-color1{
+  background-color:#383645;
+  color:#fff;
+}
+
+.col-bl{ color:#8083FF;}
+.col-gn { color: #00E5B0;}
+
+.jewel-heading{ color:#8083FF; font-style: italic;}
+
+.theHeading{
+  margin-bottom:0px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 1);
+}
+.mainHead{ text-shadow: 1px 1px 2px rgba(0, 0, 0, 1); }
+
+.subHeading{
+ margin-top: 0px;
+ font-weight: 300;
+ font-style: italic;
+}
+
+.threeImgsContain{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  height: 100%;
+}
+.singleImgContain{ width:30%; height:auto;}
+
+/* col-md-4 mb-5 d-flex align-items-center justify-content-between 
+
+threeImgsContain
+*/
+
+.lineDivi{
+  height: 1px;
+  width: 100%;
+  /* background-color: ; */
+  margin: 25px 0;
+    height: 1px;
+    background: black;
+    background: -webkit-gradient(linear, 0 0, 100% 0, from(white), to(white), color-stop(50%, #8083FF));
+}
+
+.phoneNum{ flex-direction: column; text-align: center;}
+
+.copyrightfooter{
+  margin-top:1rem;
+}
+footer{ padding: 15px;}
+
+/*  Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+
+  .phoneNum{ flex-direction: row-reverse;}
+  .subHeading{
+    margin-top: -4px;
+  }
+  .h4-estate{ font-size: 1.5rem; }
+  .threeImgs{
+    height: 150px;
+    width: auto;
+  }
+  .threeImgsContain{height: 460px; display: block}
+  .singleImgContain{
+    width: 100%;
+    margin:5px auto;
+  }
+
+}
