@@ -46,3 +46,9 @@ function goToForm() {
   var elmnt = document.getElementById("201465212693048");
   elmnt.scrollIntoView();
 }
+
+
+function findLoc(){
+  var map = document.getElementById("gMap");
+  map.scrollIntoView();
+}

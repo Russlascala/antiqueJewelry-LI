@@ -106,9 +106,10 @@ a:hover{
 threeImgsContain
 */
 
-.goTop{background-color: #8083FF;font-size: 22px;}
+.goTop, .goMap{background-color: #8083FF;font-size: 22px; text-transform: capitalize;}
 .goTop:hover{ background-color: #00E5B0;}
 .goTop-contain{color:#fff;}
+
 
 
 .lineDivi{
